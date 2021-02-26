@@ -1,14 +1,19 @@
 #include <stdio.h>
+#define Mert 34
+
 
 int main(){
-//YorumSatýrý
-/**/
 
-int a = 10;
-int b = 20;
-int c = 25;
-int d = a+b+c;
-printf(" %d",d);
+int sayi2;
+int sayi;
+printf("Herhangi bir sayi giriniz : ");
+scanf("%d",&sayi);
+printf,("ikinci sayiyi giriniz : ");
+scanf("%d",&sayi2);
+
+
+int toplam=sayi+sayi2;
+printf("Toplam ifade : %d",toplam);
 
 
 
